@@ -1,9 +1,10 @@
+import Router from "./components/Router";
 import "./style/style.sass"
 
 function App() {
   return (
     <div className="App">
-      <h1>Hola Bola!</h1>
+      <Router />
     </div>
   );
 }
